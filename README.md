@@ -1,6 +1,8 @@
 # Deep Reinforcement Learning for plaing Ping Pong
 This code is written to teach an RL angent to play ping-pong with pictures of the game invironment. (All the agent has as info is picture).
 
+![Screenshot_51](https://github.com/kianfa/Deep-Reinforcement-Learing--All-projects/assets/108475427/0b6d7a12-8e73-4cc0-947f-1e320ae40015)
+
 ## Action of Agent
 Actions of agent are:
 
