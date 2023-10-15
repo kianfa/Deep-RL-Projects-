@@ -31,7 +31,7 @@ rerun test section to set the parameters for showing the results.Then you can ru
 
 
 
-##Some suggestions to improve the code
+## Some suggestions to improve the code
 
 
 *   Adding a auto save of CNN parametes in Drive.
