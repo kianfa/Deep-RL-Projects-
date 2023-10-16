@@ -1,3 +1,3 @@
-# Check the branches.
+## Check the branches.
 
-# More branches will be available soon.
+More branches will be available soon.
