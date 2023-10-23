@@ -1,5 +1,5 @@
 # Deep Reinforcement Learning for playing Ping Pong
-This code is written to teach an RL angent to play ping-pong with pictures of the game invironment. (All the agent has as info is picture).
+This code is written to teach an RL angent to play ping-pong with pictures of the game environment. (All the agent has as info is picture).
 
 ![image](https://github.com/kianfa/Deep-RL-Projects-/assets/108475427/23dea397-0f09-4f1b-977e-73ee6655a718)
 
