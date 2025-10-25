@@ -1,10 +1,10 @@
 #Heliostat Position Optimization with Deep Reinforcement Learning
 
 
-📖 Overview
+📖 ##Overview
 This project implements a sophisticated optimization framework for heliostat field layout and positioning using computational methods. The system calculates optimal heliostat configurations to maximize solar energy collection efficiency while considering geographical location, solar radiation patterns, and physical constraints.
 
-🎯 Key Features
+🎯 ##Key Features
 Geographical Solar Analysis: Calculates solar vectors and radiation patterns based on geographical coordinates
 
 Heliostat Field Optimization: Optimizes positioning of heliostats in solar power tower systems
@@ -15,7 +15,7 @@ Physical Constraints Handling: Accounts for minimum distances, tower separation,
 
 Multi-objective Optimization: Balances energy collection efficiency with operational constraints
 
-🏗️ Project Structure
+🏗️ ##Project Structure
 text
 ├── Data Creation & Solar Analysis
 │   ├── Geographical location processing
@@ -31,7 +31,7 @@ text
 └── Visualization & Analysis
     ├── Solar radiation patterns
     └── Field layout optimization results
-🔧 Installation & Dependencies
+🔧 ##Installation & Dependencies
 bash
 pip install geopy pytz timezonefinder astral pyswarm wget
 Core Libraries
@@ -49,7 +49,7 @@ astral - Solar position calculations
 
 pyswarm - Particle Swarm Optimization
 
-🚀 Usage
+🚀 ##Usage
 1. Configuration Setup
 python
 # Set location parameters
@@ -74,7 +74,7 @@ optimized_positions = optimize_heliostat_layout(
     min_distance, 
     max_distance
 )
-📊 Key Components
+📊 ##Key Components
 Solar Position Calculations
 Solar Elevation Angle (SEA): Computes sun's altitude above horizon
 
@@ -96,7 +96,7 @@ Distance from tower: 30m minimum, 1000m maximum
 
 Power consumption: 0.003036 kWh per degree of movement
 
-🌍 Geographical Implementation
+🌍 ##Geographical Implementation
 Currently configured for Yazd, Iran - an ideal location for solar energy with:
 
 Latitude: 32.0406164°
@@ -105,7 +105,7 @@ Longitude: 54.6657189°
 
 UTC Offset: +3.5 hours
 
-📈 Data Outputs
+📈 ##Data Outputs
 The system generates comprehensive datasets including:
 
 Solar vectors (sx, sy, sz components) with timestamps
@@ -116,7 +116,7 @@ Optimized heliostat coordinates
 
 Efficiency metrics and performance analysis
 
-🔬 Research Applications
+🔬 ##Research Applications
 This framework is particularly useful for:
 
 Concentrated Solar Power (CSP) plant design
@@ -129,7 +129,7 @@ Multi-objective optimization studies
 
 Solar energy harvesting optimization
 
-📝 Citation
+📝 ##Citation
 If you use this code in your research, please cite:
 
 bibtex
@@ -139,10 +139,10 @@ bibtex
   year = {2024},
   url = {https://github.com/yourusername/heliostat-optimization}
 }
-🤝 Contributing
+🤝 ##Contributing
 Contributions are welcome! Please feel free to submit pull requests, report bugs, or suggest new features.
 
-📄 License
+📄 ##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Note: This implementation focuses on the computational framework for heliostat optimization. The Deep Reinforcement Learning components are referenced but the complete DRL implementation would build upon this foundation.
