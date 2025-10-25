@@ -1,7 +1,5 @@
-Heliostat Position Optimization with Deep Reinforcement Learning
-https://img.shields.io/badge/Python-3.7%252B-blue
-https://img.shields.io/badge/Jupyter-Notebook-orange
-https://img.shields.io/badge/Deep%2520Reinforcement%2520Learning-Research-brightgreen
+#Heliostat Position Optimization with Deep Reinforcement Learning
+
 
 📖 Overview
 This project implements a sophisticated optimization framework for heliostat field layout and positioning using computational methods. The system calculates optimal heliostat configurations to maximize solar energy collection efficiency while considering geographical location, solar radiation patterns, and physical constraints.
