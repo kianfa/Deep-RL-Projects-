@@ -139,10 +139,10 @@ bibtex
   year = {2024},
   url = {https://github.com/yourusername/heliostat-optimization}
 }
-🤝 ##Contributing
+ ## 🤝Contributing
 Contributions are welcome! Please feel free to submit pull requests, report bugs, or suggest new features.
 
-📄 ##License
+ ## 📄License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Note: This implementation focuses on the computational framework for heliostat optimization. The Deep Reinforcement Learning components are referenced but the complete DRL implementation would build upon this foundation.
