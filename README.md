@@ -16,21 +16,27 @@ Physical Constraints Handling: Accounts for minimum distances, tower separation,
 Multi-objective Optimization: Balances energy collection efficiency with operational constraints
 
 ## 🏗️ Project Structure
-text
-├── Data Creation & Solar Analysis
-│   ├── Geographical location processing
-│   ├── Solar vector calculations
-│   └── Annual solar radiation dataset generation
-├── Heliostat Field Configuration
-│   ├── Phyllotaxis-based initial positioning
-│   ├── Physical constraint implementation
-│   └── Receiver geometry modeling
-├── Optimization Algorithms
-│   ├── Particle Swarm Optimization (PSO)
-│   └── Deep Reinforcement Learning integration
-└── Visualization & Analysis
-    ├── Solar radiation patterns
-    └── Field layout optimization results
+
+The project is organized into the following main components:
+
+- **Data Creation & Solar Analysis**
+  - Geographical location processing
+  - Solar vector calculations
+  - Annual solar radiation dataset generation
+
+- **Heliostat Field Configuration**
+  - Phyllotaxis-based initial positioning
+  - Physical constraint implementation
+  - Receiver geometry modeling
+
+- **Optimization Algorithms**
+  - Particle Swarm Optimization (PSO)
+  - Deep Reinforcement Learning integration
+
+- **Visualization & Analysis**
+  - Solar radiation patterns
+  - Field layout optimization results
+  - 
 ## 🔧Installation & Dependencies
 bash
 pip install geopy pytz timezonefinder astral pyswarm wget
