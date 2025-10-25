@@ -36,7 +36,7 @@ The project is organized into the following main components:
 - **Visualization & Analysis**
   - Solar radiation patterns
   - Field layout optimization results
-  - 
+    
 ## 🔧Installation & Dependencies
 bash
 pip install geopy pytz timezonefinder astral pyswarm wget
